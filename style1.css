@@ -1,0 +1,119 @@
+*{
+    font-family: sans-serif;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.bgimg{
+    background-image: url(netflx.png);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.655); 
+    background-blend-mode: multiply;
+
+}
+.about{
+    color: white;
+    font-family: Helvetica, sans-serif;
+    
+   
+}
+.about h1{
+    font-size: 56px;
+    font-weight:800;
+}
+.about,p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.about,h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+#head{
+   
+    height: 9%;
+    width: 90%;
+    margin: auto;
+}
+#top button{
+    background-color: rgb(210, 11, 11);
+    color: white;
+    height: 32px;
+    width: 76.9px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(194, 14, 14);
+    font-size: 14px;
+    font-weight: 500; 
+    margin: 10px; 
+    position: absolute;
+    right:5%;
+}
+.lang{
+    height:32px;
+    width: 124px;
+    padding: 3px 3px 6px 34px;
+    font-weight:500;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    background-color: rgba(0, 0, 0, 0.492);
+    color: white;
+    margin: 10px;
+   position:absolute;
+    right: 5%;
+    margin-right: 96.9px;
+    border-radius: 5px;
+}
+.select{
+    background-color: white;
+    color: black;
+}
+#logo{
+    height: 60px;
+    width: 170px;
+    background-image: url(nettext.png);
+    background-size: cover;
+    display: inline-block;
+    margin: 10px;
+    position:absolute;
+    left: 5%;
+}
+#top{
+    display: inline-block;
+}
+.about{
+    text-align: center;
+    padding:80px;
+}
+.about input{
+    height:56px ;
+    width:367px ;
+    border-radius:5px ;
+    padding-left:15px;
+    background-color: rgba(15, 14, 14, 0.821);
+    border: solid 0.5px rgb(85, 85, 85);   
+    font-size: 17px;
+    color: white;
+}
+.about button{
+    height: 56px;
+    width: 256px;
+    margin: 4px;
+    border-radius: 5px;
+    color: white;
+    background-color:rgb(210, 11, 11);
+    border: solid 0.5px rgb(183, 22, 22);
+    font-size: 25px;
+    font-weight: bold;
+}
+#lastline{
+    margin-top: 40px;
+}
+#main{
+    margin-bottom: -30px;
+}
