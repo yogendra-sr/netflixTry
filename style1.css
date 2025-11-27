@@ -6,7 +6,7 @@ html, body {
   margin: 0;
 }
 .bgimg{
-    background-image: url(netflx.png);
+    background-image: url(netflx.jpg);
     background-size: cover;
     position: absolute;
     top: 0;
@@ -117,3 +117,4 @@ html, body {
 #main{
     margin-bottom: -30px;
 }
+
